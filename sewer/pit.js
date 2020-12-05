@@ -1,7 +1,9 @@
-use strict
+'use strict'
 
-export default class Pit {
-  constructor (number) {
-    this.number = number;
+class Pit {
+  constructor (type) {
+    this.type = type;
   }
 }
+
+module.exports = Pit

@@ -1,7 +1,10 @@
 'use strict'
 
-import Sewer from './sewer/sewer.js';
+const Sewer = require('./sewer/sewer.js');
 
 let sewer = new Sewer();
-sewer.newPit('315');
-console.log(sewer.pits);
+sewer.newPit('001', 'KKS-3');
+sewer.newPit('002', 'KKS-3');
+sewer.newPit('003', 'KKS-3');
+
+console.log(sewer);

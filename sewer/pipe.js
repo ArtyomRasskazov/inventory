@@ -1,7 +1,9 @@
-use strict
+'use strict'
 
-export default class Pipe {
-  constructor (number) {
-    this.number = number;
+class Pipe {
+  constructor () {
+    this.diameter = 100;
   }
 }
+
+module.exports = Pipe
